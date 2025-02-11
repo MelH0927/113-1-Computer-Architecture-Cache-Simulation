@@ -1,6 +1,8 @@
 # 113-1-Computer-Architecture-Cache-Simulation
 > 11310CS410000 &lt;Computer Architecture> final project: cache simulation
 
+**🚨 Warning: for students taking CS410000 from NTHU, do not copy this project without consent**
+
 Run by executing the following lines:
 
 ```sh
