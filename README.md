@@ -7,12 +7,10 @@ Run by executing the following lines:
 
 ```sh
 g++ project.cpp -o project
-./project cache.org reference.lst
+./project cache.org reference.lst index.rpt
 ```
 
-Results will be stored in created file index.rpt.
-
-### Contents of cache.org
+Contents of cache.org: 
 ```
 Address_bits: <num>
 Block_size: <num>
@@ -20,9 +18,11 @@ Cache_sets: <num>
 Associativity: <num
 ```
 
-### Contents of reference.lst
+Contents of reference.lst:
 ```
 .benchmark <testcase name>
 <multiple lines of binary addresses with lenghth = <Address_bits> >
 .end
 ```
+
+Results will be stored in created file index.rpt.
